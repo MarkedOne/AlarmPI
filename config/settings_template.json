@@ -2,10 +2,10 @@
     "http": {
         "enable": false,
         "host": "",
-        "https": true,
-        "password": "",
+        "https": false,
+        "password": "085246",
         "port": 443,
-        "username": "test1"
+        "username": "shadrack"
     },
     "mail": {
         "enable": false,
@@ -38,7 +38,7 @@
     },
     "settings": {
         "alarmState": "disarmed",
-        "timezone": "Europe/Athens",
+        "timezone": "Africa/Johannesburg",
         "trim": 1000
     },
     "voip": {
