@@ -32,7 +32,7 @@ fi
 # Download from GitHub
 if [ ! -d $basedir ]; then
     echo -e "\e[35mDownloading from GitHub...\e[0m"
-    sudo git clone https://github.com/bkbilly/AlarmPI.git $basedir
+    sudo git clone https://github.com/MarkedOne/AlarmPI.git $basedir
 else
     echo -e "\e[35mAlarmPI already exists, updating...\e[0m"
     sudo git -C $basedir pull origin master
