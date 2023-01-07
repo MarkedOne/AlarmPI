@@ -28,7 +28,7 @@ class FlaskBookshelfTests(unittest.TestCase):
         # propagate the exceptions to the test client
         self.client.testing = True
         self.headers = {'Authorization': 'Basic %s' % b64encode(
-            b"test1:secret").decode("ascii")}
+            b"shadrack:085246").decode("ascii")}
 
     def tearDown(self):
         pass
